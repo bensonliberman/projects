@@ -1,0 +1,15 @@
+ String B = "A";
+        
+        File letter = new File("letter.txt");
+        try
+        {
+            Scanner letterScanner = new Scanner(letter);
+        }
+        catch(Exception e)
+        {
+        System.out.print("huy");
+        }
+        
+        B = letterScanner.next();
+        
+        System.out.print(B);
